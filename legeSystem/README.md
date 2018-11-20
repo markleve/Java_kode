@@ -1,38 +1,22 @@
-Last ned `hovedprogram.java` og legg denne filen i samme mappe som koden din.
+Lege system
+======
 
-### Kompilering
-Kompilér alle klassene dine med
-```
-javac *.java
-```
+Mandatory assignment from the course INF1010 at UiO.
 
-#### Windows
-På Windows bør du bruke en opsjon for å angi at tegnsettet i filen er UTF-8 for å få de særnorske tegnene skrevet ut riktig. (Pass på at alle `.java`-filene dine er lagret i UTF-8.)
+The task was to create a system that keeps track of doctors, patients, prescriptions and
+drugs.
 
+### Using the program
+The program is compiled and run by using
 ```
-javac -encoding utf-8 *.java
-```
-
-### Bruk
-Programmet kjøres med
-```
-java Oblig4 <inputfil>
+javac *.java && java Oblig4 <inputfil>
 ```
 
-## Inputfiler
-Du finner også inputfilene på http://folk.uio.no/inf1010/v17/oblig/4/samples
+## Inputfil
+Different input files are added to this project folder. All input files ends with \".in\".
 
-### Automatisk nedlastning og utpakking
-Disse kommandoene bør fungere på Linux og Mac. Sørg for at du er i riktig mappe.
-
-#### Med zip
-```sh
-wget http://folk.uio.no/inf1010/v17/oblig/4/samples/alle.zip
-unzip alle.zip
-```
-
-#### Med tarball
-```sh
-wget http://folk.uio.no/inf1010/v17/oblig/4/samples/alle.tgz
-tar -xvf alle.tgz
-```
+Contents
+--------
+    - Oblig4.java: main file to run the program
+    - oppgave_beskrivelse.pdf: a file describing the project task and guidelines
+    - 2.in: example of an input file
