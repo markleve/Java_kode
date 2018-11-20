@@ -1,0 +1,24 @@
+public class TestPasient {
+
+  public static void main(String[] args) {
+    Pasient pasient = new Pasient("Marie Klever", 123445697, "Moerveien 36a", 1430);
+    System.out.println(pasient);
+
+    Pasient pasient2 = new Pasient("Marie Klever", 123445697, "Moerveien 36a", 1430);
+    System.out.println(pasient2);
+
+/*
+    Resept r1 = new Resept("første", 2);
+    Resept r2 = new Resept("andre", 3);
+    pasient.leggTilResept(r1);
+    pasient.leggTilResept(r2);
+    System.out.println("\nReseptliste");
+    for (Resept rep: pasient.hentReseptliste()) {
+      System.out.println(rep);
+    }
+
+
+    Pasient pasient3 = new Pasient("Marie Klever", 123445697, "Moerveien 36a", 1430);
+    System.out.println(pasient3);*/
+  }
+}

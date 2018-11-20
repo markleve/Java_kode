@@ -1,0 +1,20 @@
+# Pasienter (id, navn, fodselsnummer, adresse, postnr)
+0, Marie Klever, 00090876473, Moerveien , 4355
+1, Kjg, 00000056789, Moer, 0546
+
+# Legemidler (ID, navn, type, pris, virkestoff [, styrke])
+0, Klee, a, 98.00, 654.0, 3
+1, Kkopas, a, 4.00, 87.0, 32
+
+# Leger (navn, avtalenr / 0 hvis ingen avtale)
+Klemte, 6547
+Kleve K, 0
+
+# Resepter (id, hvit/blaa, pasientID, legenavn, legemiddelID, reit)
+0, blaa, 0, Kleve K, 0, 11
+1, blaa, 0, Klemte, 0, 44
+2, blaa, 1, Kleve K, 0, 31
+0, hvit, 1, Kleve K, 1, 54
+1, hvit, 0, Kleve K, 1, 53
+
+# Slutt
